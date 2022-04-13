@@ -11,7 +11,7 @@ const productSchema = new mongoose.Schema({
   },
   featured: {
     type: Boolean,
-    default: false,
+    default: false
   },
   rating: {
     type: Number,
@@ -19,7 +19,7 @@ const productSchema = new mongoose.Schema({
   },
   createdAt: {
     type: Date,
-    default: Date.now(),
+    default: Date.now()
   },
   company: {
     type: String,
